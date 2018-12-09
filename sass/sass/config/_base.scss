@@ -1,0 +1,28 @@
+@import 'variables';
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $titlefont;
+}
+
+p{
+    font-family: $laberfont;
+}
+
+li{
+    font-family: $laberfont;
+}
+
+b{
+    font-family: $laberfont;
+}
+
+i{
+    font-family: $laberfont;
+}
+
+a{
+    text-decoration: none;
+    font-family: $laberfont;
+}a:hover{
+    text-decoration: none;
+}

@@ -68,7 +68,7 @@ class Database {
         $query->execute($criteria);
         return $query->fetch(PDO::FETCH_ASSOC);
     }
-    
+
 }
 
 /* Cette classe permet de faciliter la connexion à la bdd via PDO

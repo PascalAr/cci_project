@@ -2,6 +2,13 @@
 
 class Database {
 
+	const SGBD = 'mysql'; 
+	const DB_NAME = 'autogire';
+	const DB_HOST = 'localhost'; 
+	const DB_CHARSET = 'UTF8'; 
+	const DB_USER = 'root'; 
+	const DB_PASS = '';
+
 	/**
 	 * @var PDO instance d'une connexion PDO
 	 */
@@ -19,9 +26,9 @@ class Database {
 		{
 			self::$pdo = new PDO
 			(
-				SGBD.':dbname='.DB_NAME.';host='.DB_HOST.';charset='.DB_CHARSET,
-				DB_USER,
-				DB_PASS
+				self::SGBD.':dbname='.self::DB_NAME.';host='.self::DB_HOST.';charset='.self::DB_CHARSET,
+				self::DB_USER,
+				self::DB_PASS
 			);
 			self::$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 		}

@@ -10,10 +10,8 @@ class Autoloader{
 
     static function autoload($class){
 
-
         require __DIR__ .'/'.$class.'.php';
-        
-        
+                
     }
 
 }

@@ -1,0 +1,24 @@
+<h2>Ajouter une question dans la F.A.Q</h2>
+
+<form action="../controller/add_faq.php" method="post" class="">
+<label for="question">La question</label><br>
+<input type="text" name="question" id="question" placeholder="Entrez la questions"><br>
+<label for="response">La reponse</label> <br>
+<textarea name="response" id="response" cols="30" rows="10" placeholder="Entrez la reponse"></textarea><br>
+<input type="submit" value="Ajouter à la F.A.Q" class="">
+
+</form>
+
+<?php 
+
+if(array_key_exists('error', $_SESSION)){
+    foreach($_SESSION['error'] as $e){
+    ?>
+    <strong><?= $e; ?></strong>
+    <?php 
+    }
+}
+
+?> 
+
+<?php unset($_SESSION['error']); ?>

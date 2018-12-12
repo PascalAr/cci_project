@@ -3,11 +3,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Back Office</title>
 </head>
 <body>
     
+    <header> 
+    <h1>Back office</h1>
+    </header>
+
+    <main>
+    <nav> 
+    <h2>Paramètres</h2>
+    <li><a href="../logout.php">Déconnexion</a></li>
+    <li><a href="../controller/backhome.php">Accueil</a></li>
+    <li><a href="../controller/reset_password.php">Réglages</a></li>
+    <h2>F.A.Q</h2>
+    <li><a href="../controller/add_faq.php">Ajouter</a></li>
+    </nav> 
+    <section>
     <?php include "../view/$vew"; ?>
+    </section>
+    </main>
+
+    <footer>
+    </footer>
 
 </body>
 </html>

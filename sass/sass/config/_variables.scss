@@ -1,7 +1,29 @@
 //! FONT TITLE !\\ (Toutes les balises <h>)
 
-$titlefont: 'Montserrat', sans-serif;
+$titlefont: Montserrat, sans-serif;
 
 //! FONT LABEUR !\\ (balise <p> <li> <a> <b> <i>
 
-$laberfont: 'Open Sans', sans-serif;
+$laberfont: 'Raleway', sans-serif;
+
+// Couleur
+
+$primary_blue:#1b2336 ;
+$secondary_blue :#131723; 
+$shadow_blue :rgba(27,35,54,0.5);
+
+
+$primary_yellow:rgba(217, 186, 8,1);
+$primary_yellow_hov:rgb(240, 205, 11);
+$secondary_yellow: rgba(247, 238, 201,1);
+
+$primary_white: #fff;
+$secondary_white: rgba(255, 255, 255, 0.2);
+// Image
+    //home
+
+$header_image_home: url('../../medias/img/header.jpg');
+$header_image_autogire:url('../../medias/img/header.jpg');
+$section_image_one: url('../../medias/img/background_autogire.jpg');
+$section_image_two: url('../../medias/img/background_vol.jpg');
+$image_card: url('');

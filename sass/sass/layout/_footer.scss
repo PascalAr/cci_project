@@ -1,0 +1,20 @@
+footer{
+    width: 100%;
+    height: 30vh;
+    color:$primary_white;
+    background-color: $primary_blue;
+    border-top: $primary_yellow solid 5px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.h3{
+    color:$primary_white;
+}
+.h3:hover{
+    color:$primary_yellow;
+}
+.footer{
+    margin-top: 50px;
+}

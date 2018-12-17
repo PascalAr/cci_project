@@ -1,0 +1,32 @@
+// Comportement du bouton principal
+.primary-button{
+    background-color: $primary_yellow;
+    color: $primary_blue;
+    font-weight: bold;
+    box-shadow: $shadow_blue -3px 4px 13px 0px;
+    border-radius:6px;
+    padding: 20px 30px;
+    font-size: 2em;
+}
+.primary-button:hover{
+    background-color: $primary_yellow_hov;
+    color: $primary_blue;
+    padding: 25px 30px;
+}
+
+// Comportement du bouton secondaire
+.secondary-button{
+    background-color: transparent;
+    color: $primary_yellow;
+    border: solid 2px $primary_yellow;
+    border-radius:6px;
+    padding: 30px 90px;
+    font-size: 2em;
+}
+
+.secondary-button:hover{
+    background-color:$secondary_white;
+    color: $primary_yellow;
+    padding: 35px 90px;
+    
+}

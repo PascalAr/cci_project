@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="description" content="<?= $meta_description; ?>">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700" rel="stylesheet"> 
     <link rel="stylesheet" href="../sass/css/style.css">
     <title><?= $title; ?></title>
   </head>
@@ -11,9 +13,66 @@
    
   <!-- Header avec conditions -->
 
+    <header class="<?= $header;?>">
+      <nav>
+        <div class='logo'>
+          <a href="home.php"><img src="../medias/img/logo-final.png" alt=""></a>
+        </div>
+        <div class="nav">
+          <div>
+            <a href="vols.php" class='item item-primary'>Nos vols</a>
+          </div>
+          <div>
+            <a href="autogire.php" class='item'>L'autogire</a>
+          </div>
+          <div>
+            <a href="http://" class='item'>Infos</a>
+          </div>
+          <div>
+            <a href="http://" class='item'>Galerie</a>
+          </div>
+          <div>
+            <a href="http://" class='item'>Contact</a>
+          </div>
+        </div>
+      </nav>
+      <a href="#" class="primary-button button-header" role="button"> 
+        <?= $button;?>
+      </a>
+      <h1 style="<?= $style;?>">
+        <?= $h;?>
+      </h1>
+      
+    </header>
+    
+  <!-- Corps de page-->
+
     <?php include "../vew/$vew"; ?>
 
   <!-- Footer -->
+
+    <footer>
+      <div class="footer">
+        <h3>Nous contatcter</h3>
+        <p>06 55 44 85 98<br>
+          giropjp05@gmail.com
+        </p>
+      </div>
+      <div class="footer">
+        <h3>Nous trouver</h3>
+        <p>Aérodrome<br>
+          du Chevalet <br>
+          05140 <br>
+          Aspres-sur-buëch
+        </p>
+      </div>
+      <div class="footer">
+        <a href="faq.php" class="h3">Mentions</a><br>
+        <a href="faq.php" class="h3">F.A.Q</a>
+        <img src="" alt="">
+        <img src="" alt="">
+      </div>
+    </footer>
 
   <!-- Script JS --> 
   </body>

@@ -1,0 +1,98 @@
+// Parametres généraux des sections
+section{
+   
+    margin: 100px auto 0;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.space{
+    justify-content: space-around;
+    margin-bottom: 7%;
+}
+.marg{
+    margin-left: 10%;
+    margin-right:  10%;
+}
+
+// 1ere section texte
+
+
+
+section p{
+    font-size: 22px;
+}
+// Gestion des cartes 
+
+.card{
+    min-width: 20%;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
+    border:  none;
+
+    box-shadow: $shadow_blue -3px 4px 13px 0px;
+  
+}
+.card-img-top{
+    
+    height: 300px;
+    background-color: grey;
+    background-color: $image_card;
+    margin-bottom: 0;
+    border:  none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body{
+   
+    color : $primary_blue;
+    background-color: $primary_yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+// Gestion des sections images
+.image{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //Background-position : center center ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.image-one{
+    background-image: $section_image_one;
+    
+    
+}
+
+.image-two{
+    background-image: $section_image_two;
+}
+
+// 3ieme Section 
+
+.section-three{
+    padding: 5%;
+    background-color: $secondary_yellow;
+
+}
+
+.icone{
+    width: 300px;
+    height: 200px;
+}

@@ -4,8 +4,39 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $titlefont;
 }
 
+h1{
+    color :$primary_yellow;
+    display: flex;
+    top: 80%;
+    width: 100%;
+    padding: 10px 5% 10px 0;
+    position: relative;
+    justify-content: flex-end;
+    font-weight: 200;
+
+    background: linear-gradient(to left, $shadow_blue, transparent);
+}
+h2{
+    font-size: 55px;
+    margin-bottom: 5%;
+    text-align: center;
+
+
+}
+h3{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
 p{
     font-family: $laberfont;
+    margin-bottom: 0;
+
 }
 
 li{
@@ -26,3 +57,4 @@ a{
 }a:hover{
     text-decoration: none;
 }
+
